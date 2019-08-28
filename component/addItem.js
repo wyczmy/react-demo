@@ -41,7 +41,7 @@ class Add extends React.Component{
 
             }
             <Sum />
-            <div onClick={this.resetNum}>2s后重置数据</div>
+            <div onClick={this.resetNum}>saga测试2s后重置数据</div>
             <div onClick={()=>{this.props.history.push({pathname:'/tab1/2'})}}>跳转tab2</div>
         </div>
     }
